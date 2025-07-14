@@ -30,7 +30,11 @@
 - Kaggle API
 
 ### 🧱 Arquitetura Medallion
-<img src="Image/Diagrama ETL Ifood.png">
+
+<img width="18" height="18" alt="image" src="https://github.com/user-attachments/assets/2d6def84-4166-4df8-8fd1-b3fec3e6bd44" />
+Diagrama Pipeline de dados - Databricks | Delta Lake | Spark 
+
+<img src="Image/Diagrama ETL Olist.png">
 
 ```
 O projeto segue a arquitetura em camadas da Medallion Architecture, com divisão clara entre ingestão, transformação e análise:
