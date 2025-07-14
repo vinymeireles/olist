@@ -66,23 +66,8 @@ O projeto segue a arquitetura em camadas da Medallion Architecture, com divisão
   - Média de itens por pedido
   - Avaliação média por estado
 
-```
-▶️ Execução
-  Clone o repositório:
+<img src="Image/Dashboard Olist.png">
 
- git clone https://github.com/seu-usuario/projeto-olist-etl.git
-
-1. Importe os notebooks no Databricks
-
-2. Execute-os na ordem:
-
-  01. Camada Bronze.py  
-  02. Camada Silver.py  
-  04. Gold re-invoiced.py
-   
-3. Visualize os arquivos .parquet no Power BI
-
-```
 📈 Exemplos de KPIs Gerados
   
 <table>
@@ -112,9 +97,26 @@ O projeto segue a arquitetura em camadas da Medallion Architecture, com divisão
   </tbody>
 </table>
 
+```
+▶️ Execução
+  Clone o repositório:
+
+ git clone https://github.com/seu-usuario/projeto-olist-etl.git
+
+1. Importe os notebooks no Databricks
+
+2. Execute-os na ordem:
+
+  01. Camada Bronze.py  
+  02. Camada Silver.py  
+  04. Gold re-invoiced.py
+   
+3. Visualize os arquivos .parquet no Power BI
 
 ```
 
+
+```
 ✅ Status do Projeto
 
 ✔️ Pipeline Bronze → Silver → Gold funcional
@@ -147,5 +149,5 @@ Engenheiro de Dados | Especialista em Power BI
 
 📎 LinkedIn: <a href= "https://www.linkedin.com/in/pviniciusmeireles/"> Linkedin </a>
 📧 viniciusmeireles@gmail.com
-```
+
 <img src="Image/Logo Engenharia de Dados.png" width="150" height="150">   
